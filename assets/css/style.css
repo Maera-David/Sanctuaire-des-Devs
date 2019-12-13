@@ -1,6 +1,30 @@
 /* IMPORTATION FONTS */
 @import url('https://fonts.googleapis.com/css?family=Orbitron|Shojumaru&display=swap');
 
+/* Reset CSS*/
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    margin: 0;
+    background: unset;
+}
+
+/* Background */
+html {
+    background-size: cover;
+    background: url("../img/temple-front.jpg") no-repeat center center fixed;
+    background-blend-mode: darken;
+    transition: 3s;
+}
+
+.background-theme {
+    color: #ffffff;
+    border: 4px double rgba(255, 255, 255, 0.7);
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
 /* SOFT SKILLS */
 
 
