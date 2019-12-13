@@ -10,5 +10,19 @@
 
 
 /* DESCRIPTION */
-
-
+#description{
+    font-family: orbitron;
+    font-size: large; 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: -webkit-linear-gradient(left, rgb(219, 74, 74), rgb(189, 128, 16), rgb(99, 161, 99),  rgb(33, 4, 54), violet);
+  
+    }
+    
+#description ul{
+    list-style: none;
+}
+#description .container{
+    background-image: url("temple-front.jpg");
+}
+                        
