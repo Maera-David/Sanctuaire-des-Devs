@@ -1,7 +1,8 @@
 /* IMPORTATION FONTS */
-@import url('https://fonts.googleapis.com/css?family=Orbitron|Shojumaru&display=swap');
 
+@import url('https://fonts.googleapis.com/css?family=Orbitron|Shojumaru&display=swap');
 /* Reset CSS*/
+
 * {
     box-sizing: border-box;
 }
@@ -24,6 +25,7 @@ body {
 }
 
 /* Background */
+
 html {
     background-size: cover;
     background: url("../img/temple-front.jpg") no-repeat center center fixed;
@@ -39,11 +41,81 @@ html {
 
 /* SOFT SKILLS */
 
+#skills {
+    font-family: orbitron, sans-serif;
+    font-size: 20px;
+    text-shadow: 1px 2px 3px rgb(163, 226, 46);
+}
 
+#skills h1 {
+    padding: 20px;
+    
+}
+
+/* #skills h2
+{
+    font-size:15px;
+} */
+
+#ul-skills {
+    list-style: none;
+}
+
+.li-skills {
+    display: flex;
+    padding: 26px;
+}
+
+#skills .barrePourcentage {
+    margin-left: 130px;
+    position: absolute;
+    height: 22px;
+    width: 200px;
+    border-radius: 13px;
+    background: rgb(214, 214, 214);
+    border: 1px solid #999;
+}
+
+#skills .barrePourcentageProgress {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 22px;
+    border-radius: 13px;
+    background: rgb(211, 37, 211);
+}
+
+#skills .pourcentage-0sur5 {
+    width: 0;
+    /* 60px = 1/5 */
+}
+
+#skills .pourcentage-1sur5 {
+    width: 40px;
+    /* 60px = 1/5 */
+}
+
+#skills .pourcentage-2sur5 {
+    width: 80px;
+    /* 60px = 1/5 */
+}
+
+#skills .pourcentage-3sur5 {
+    width: 120px;
+    /* 60px = 1/5 */
+}
+
+#skills .pourcentage-4sur5 {
+    width: 180px;
+    /* 60px = 1/5 */
+}
+
+#skills .pourcentage-5sur5 {
+    width: 200px;
+    /* 60px = 1/5 */
+}
 
 /* DEVIS ET GENS */
-
-
 
 /* DESCRIPTION */
 #description {
@@ -51,20 +123,19 @@ html {
     font-size: 20px;
     text-shadow: 1px 2px 3px rgb(163, 226, 46);
 }
-       
-#description ul{
+
+#description ul {
     list-style: none;
 }
 
 /*#description .container{*/
+
 /*    background-image: url("temple-front.jpg");*/
+
 /*}*/
 
 .float {
-  float: right;
-  width: 25%;
-  margin: 150px;
+    float: right;
+    width: 25%;
+    margin: 150px;
 }
-  
-    
-                    

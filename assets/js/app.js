@@ -1,5 +1,12 @@
 // BACKGROUND
 
+
+
+document.getElementById("skill1").classList.add("pourcentage-5sur5");
+document.getElementById("skill2").classList.add("pourcentage-1sur5");
+document.getElementById("skill3").classList.add("pourcentage-2sur5");
+document.getElementById("skill4").classList.add("pourcentage-3sur5");
+document.getElementById("skill5").classList.add("pourcentage-4sur5");
 const
     // Noms des images
     arrayImages =
@@ -15,14 +22,14 @@ const
     secs = 4;
 
 /** Mets les images en mémoire pour ne pas avoir de flash blanc */
- arrayImages.forEach(function (img) {
+arrayImages.forEach(function (img) {
     new Image().src = path + img;
 });
 
- /** Lance le fading du background et change les images
- * /!\ Boucle infiniment, ne resort pas de cette fonctions
- */
- (function backgroundSequence() {
+/** Lance le fading du background et change les images
+* /!\ Boucle infiniment, ne resort pas de cette fonctions
+*/
+(function backgroundSequence() {
 
     let k = 0;
     window.clearTimeout();
@@ -55,4 +62,3 @@ const
 
 // LE RESTE FOR THE MOMENT ^_^
 
-    
