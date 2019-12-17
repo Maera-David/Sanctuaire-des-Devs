@@ -11,6 +11,18 @@ body, html {
     background: unset;
 }
 
+/* Base elements */
+body {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+.skills-float, .principale-flat, .description {
+    width: 33vh;
+}
+
 /* Background */
 html {
     background-size: cover;
@@ -34,7 +46,7 @@ html {
 
 
 /* DESCRIPTION */
-#description{
+#description {
     font-family: orbitron, sans-serif;
     font-size: 20px;
     text-shadow: 1px 2px 3px rgb(163, 226, 46);
