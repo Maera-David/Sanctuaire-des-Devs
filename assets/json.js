@@ -154,7 +154,7 @@ let tableau = [
             "Écoute": 5,
         },
         "projetPro": "Niveau pro: devenir développeur Web.\n" +
-            "J'aime voyager, prendre de jolies photos, la nature et être en harmonie avec soi-même et\n" +
+            "J'aime voyager, la photographie, la nature et être en harmonie avec soi-même et\n" +
             "avec les autres.",
         "qualitesPrincipale": "Les langues",
     },
@@ -203,8 +203,7 @@ let tableau = [
             "Créativité": 4,
             "Patience": 4,
         },
-        "projetPro": "“L’ignorant affirme, le savant doute, le sage réfléchit.” OU\n" +
-            "Ma passion c’est Batman, je dessine Batman, je parle Batman, I AM BATMAN",
+        "projetPro": "Ma passion c’est Batman, je dessine Batman, je parle Batman, I AM BATMAN",
         "qualitesPrincipale": "Garder son calme sur twitter",
     },
     {
@@ -220,9 +219,8 @@ let tableau = [
             "Créativité": 4,
             "Empathie": 4,
         },
-        "projetPro": "Je souhaite intégrer l’école de poudlard, et devenir la plus grande sorcière de tous les temps.\n" +
-            "J’ai essayé à plusieurs reprises de les contacter, malheureusement mon hibou est un peu\n" +
-            "tête en l’air alors il se trompe tout le temps de route...",
+        "projetPro": "Souhaite intégrer Poudlard, et devenir une grande sorcière.\n" +
+            "Malheureusement mon hibou est un peu en retard\n",
         "qualitesPrincipale": "Maitrise de Piertotum locomotor",
     },
     {
