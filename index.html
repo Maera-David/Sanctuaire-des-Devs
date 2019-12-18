@@ -2,45 +2,84 @@
 <html lang="fr">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
     <title>Le Sanctuaire des Dev</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assets/css/style.css" />
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css"/>
 
 </head>
 
-<body>
+<body class=>
 
+<!-- Devise -->
+<div class="container-devise text-center justify-content-center d-inline">
+    <h1 class="heading" data-target-resolver>Ne fais pas aux autres ce que tu n'aimerai pas que l'on te fasse</h1>
+</div>
+
+<div class="d-flex justify-content-around align-items-center">
     <!-- SOFT SKILLS -->
     <div id="skills">
+        <div class="background-theme container skills-container">
 
+            <h1> Soft skills</h1>
+
+            <div class="paragraph-skills">
+
+                <ul id="ul-skills">
+                    <li class="li-skills">
+                        Skill1
+                        <div class="barrePourcentage">
+                            <div id="skill1" class="barrePourcentageProgress "></div>
+                            <!-- a mettre dans la class : pourcentage-5sur5 -->
+                        </div>
+                    </li>
+                    <li class="li-skills">
+                        Skill2
+                        <div class="barrePourcentage">
+                            <div id="skill2" class="barrePourcentageProgress"></div>
+                        </div>
+                    </li>
+                    <li class="li-skills">
+                        Skill3
+                        <div class="barrePourcentage">
+                            <div id="skill3" class="barrePourcentageProgress"></div>
+                        </div>
+                    </li>
+                    <li class="li-skills">
+                        Skill4
+                        <div class="barrePourcentage">
+                            <div id="skill4" class="barrePourcentageProgress"></div>
+                        </div>
+                    </li>
+                    <li class="li-skills">
+                        Skill5
+                        <div class="barrePourcentage">
+                            <div id="skill5" class="barrePourcentageProgress"></div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </div>
 
     <!-- DEVISE ET PHOTO GENS-->
     <div id="principale">
-            <!-- Devise -->
-            <div class="container-devise">
-                <h1 class="heading" data-target-resolver></h1>
-            </div>
+        <div class="container">
+
 
             <!-- PHOTO -->
             <div class="img-jaugexp">
-                <img src="./assets/img/Test 1/Bea test 1.png" />
-                <h3 class="jaugexp">Béatrice</h3>
+                <img src="./assets/img/Test 1/Bea test 1.png" alt="B&eacute;atrice"/>
+                <h3 class="jaugexp">B&eacute;atrice</h3>
             </div>
 
-
-
             <!-- PROGRESS BAR -->
-            <!--  -->
-
             <div class="class-progression-bar">
                 <div class="card">
                     <div class="percent">
-
                         <svg>
                             <circle cx="70" cy="70" r="70"></circle>
                             <circle cx="70" cy="70" r="70"></circle>
@@ -52,13 +91,15 @@
                     <h4 class="text-bar">Enthousiaste</h4>
                 </div>
             </div>
+        </div>
     </div>
+
     <!-- DESCRIPTION DES GENS -->
     <div id="description">
-        <div class="container background-theme float">
+        <div class="container background-theme">
             <h1>Description:</h1>
             <ul>
-                <li class="nom">Nom : HENNES </li>
+                <li class="nom">Nom : HENNES</li>
                 <li class="prenom">Prénom : Isabelle</li>
                 <li class="surnom">Surnom : Isa ou Zabou</li>
                 <li class="description"> Description: <br>
@@ -66,12 +107,14 @@
                     Passionnée par les arts-martiaux, la mode, le makeup et les réseaux sociaux!<br>
                     <br>Projet pro : <br>
                     Je continue à développer mes compétences de community manager en plus de celles de dév. web afin de
-                    pouvoir travailler dans une agence web en tant que développeur web/community manager.</li>
+                    pouvoir travailler dans une agence web en tant que développeur web/community manager.
+                </li>
             </ul>
         </div>
     </div>
+</div>
 
-    <script src="./assets/js/app.js"></script>
+<script src="./assets/js/app.js"></script>
 </body>
 
 </html>
