@@ -256,8 +256,8 @@ let tableau = [
             "Sérieux": 4,
             "Raisonnable": 4,
         },
-        "projetPro": "Calme et sérieux. Je suis capable de travailler seul et en équipe. Je souhaiterais acquérir les\n" +
-            "compétences nécessaires pour devenir développeur d’applications web.",
+        "projetPro":   
+        "devenir développeur d’applications web.",
         "qualitesPrincipale": "Je travail avec l’objectif de toujours satisfaire ma clientèle.",
     },
 ];
