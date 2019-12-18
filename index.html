@@ -15,48 +15,47 @@
 <body>
 
 <!-- Devise -->
-<div class="container-devise text-center justify-content-center d-inline">
-    <h1 class="heading" data-target-resolver>Ne fais pas aux autres ce que tu n'aimerai pas que l'on te fasse</h1>
+<div class="container-devise text-center justify-content-center d-inline ">
+    <h1 class="heading" data-target-resolver id="devise-text">Ne fais pas aux autres ce que tu n&apos;aimerai pas que l&apos;on te fasse</h1>
 </div>
 
-<div class="d-flex justify-content-around align-items-center">
+<div class="d-flex justify-content-around align-items-center div-centrale">
 
     <!-- SOFT SKILLS -->
-    <div id="skills">
+    <div id="skills" >
         <div class="background-theme container skills-container">
 
             <h1> Soft skills</h1>
 
             <div class="paragraph-skills">
-
                 <ul id="ul-skills">
                     <li class="li-skills">
-                        Skill1
+                        <span id="text-skill1">Skill1</span>
                         <div class="barrePourcentage">
-                            <div id="skill1" class="barrePourcentageProgress "></div>
+                            <div id="skill1" class="barrePourcentageProgress pourcentage-5sur5"></div>
                             <!-- a mettre dans la class : pourcentage-5sur5 -->
                         </div>
                     </li>
                     <li class="li-skills">
-                        Skill2
+                        <span id="text-skill2">Skill2</span>
                         <div class="barrePourcentage">
-                            <div id="skill2" class="barrePourcentageProgress"></div>
+                            <div id="skill2" class="barrePourcentageProgress pourcentage-0sur5"></div>
                         </div>
                     </li>
                     <li class="li-skills">
-                        Skill3
+                        <span id="text-skill3">Skill3</span>
                         <div class="barrePourcentage">
                             <div id="skill3" class="barrePourcentageProgress"></div>
                         </div>
                     </li>
                     <li class="li-skills">
-                        Skill4
+                        <span id="text-skill4">Skill4</span>
                         <div class="barrePourcentage">
                             <div id="skill4" class="barrePourcentageProgress"></div>
                         </div>
                     </li>
                     <li class="li-skills">
-                        Skill5
+                        <span id="text-skill5">Skill5</span>
                         <div class="barrePourcentage">
                             <div id="skill5" class="barrePourcentageProgress"></div>
                         </div>
@@ -70,22 +69,16 @@
     <div id="principale">
         <div class="container">
 
-
             <!-- PHOTO -->
             <div class="img-jaugexp">
-                <img src="./assets/img/Test 1/Bea test 1.png" alt="B&eacute;atrice"/>
-                <h3 class="jaugexp">B&eacute;atrice</h3>
+                <img id="photo-perso" src="./assets/img/Test 1/Bea test 1.png" alt="B&eacute;atrice"/>
+                <h3 class="jaugexp" id="main-name">B&eacute;atrice</h3>
             </div>
 
-
-
             <!-- PROGRESS BAR -->
-            <!--  -->
-
             <div class="class-progression-bar">
                 <div class="card">
                     <div class="percent">
-
                         <svg>
                             <circle cx="70" cy="70" r="70"></circle>
                             <circle cx="70" cy="70" r="70"></circle>
@@ -94,7 +87,7 @@
                             <h2>90<span>%</span></h2>
                         </div>
                     </div>
-                    <h4 class="text-bar">Enthousiaste</h4>
+                    <h4 class="text-bar" id="main-QuaPrincipale">Enthousiaste</h4>
                 </div>
             </div>
         </div>
@@ -105,15 +98,16 @@
         <div class="container background-theme">
             <h1>Description:</h1>
             <ul>
-                <li class="nom">Nom : HENNES</li>
-                <li class="prenom">Prénom : Isabelle</li>
-                <li class="surnom">Surnom : Isa ou Zabou</li>
+                <li class="nom">Nom : <span id="description-nom">HENNES</span></li>
+                <li class="prenom">Pr&eacute;nom : <span id="description-prenom">Isabelle</span></li>
+                <li class="surnom">Surnom : <span id="description-surnom">Isa ou Zabou</span></li>
                 <li class="description"> Description: <br>
                     <br>Passions : <br>
-                    Passionnée par les arts-martiaux, la mode, le makeup et les réseaux sociaux!<br>
+                    <span id="description-passion">Passionn&eacute;e par les arts-martiaux, la mode, le makeup et les r&eacute;seaux sociaux!</span><br>
                     <br>Projet pro : <br>
-                    Je continue à développer mes compétences de community manager en plus de celles de dév. web afin de
-                    pouvoir travailler dans une agence web en tant que développeur web/community manager.
+                    <span id="description-projet">Je continue &agrave; d&eacute;velopper mes comp&eacute;tences de community manager en plus de
+                        celles de d&eacute;v. web afin de
+                        pouvoir travailler dans une agence web en tant que d&eacute;veloppeur web/community manager.</span>
                 </li>
             </ul>
         </div>
