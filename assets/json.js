@@ -92,9 +92,8 @@ let tableau = [
     {
         "nom": "MARIN",
         "prenom": "Ludovic",
-        "surnom": "",
-        "phraseDePresentationDevise": "OVH - Serveur Dédié - Ubuntu 18.04 - PHP 7.2\n" +
-            "phpMyAdmin - jQuery - Js Vanilla - Css3 - Bootstrap - DNS - HTTPS - référencement ..",
+        "surnom": "Ludo",
+        "phraseDePresentationDevise": "Seul les poissons mort suivent le courant" , 
         "qualites": {
             "Curieux": 4,
             "Astucieux": 4,
@@ -102,17 +101,13 @@ let tableau = [
             "Ponctuel": 5,
             "Créatif": 4,
         },
-        "projetPro": "Ludovic, 40ans. J’aime la musique et tout ce qui sonne pop, soul et funky.\n" +
-            "Je suis également passionné du web auquel je contribue depuis 2005 à travers 2\n" +
-            "plateformes que j’ai réalisées et que j’ai mises en ligne. L’une étant un média musical que\n" +
-            "j’ai depuis arrêté et l’autre une niche centrée autour du partage et de la vente\n" +
-            "d’instrumentales.",
+        "projetPro": "Développeur dans une agence de création ",
         "qualitesPrincipale": "Débrouillard",
     },
     {
         "nom": "MONTMIRAIL",
         "prenom": "Anthony",
-        "surnom": "",
+        "surnom": "Antho",
         "phraseDePresentationDevise": "Elle gère la fougère",
         "qualites": {
             "Présence": 5,
@@ -177,10 +172,8 @@ let tableau = [
     {
         "nom": "BENCHIKH",
         "prenom": "Messaouda",
-        "surnom": "",
-        "phraseDePresentationDevise": "Nous avons tous des idées positives, c’est avec de l’énergie et de la créativité que nous\n" +
-            "pouvons les réaliser. Nous sommes présents pour trouver des solutions et pour vous faciliter\n" +
-            "la vie.",
+        "surnom": "Messa",
+        "phraseDePresentationDevise": "Quandon est positif  , on est plus créatif",
         "qualites": {
             "Innovation": 5,
             "Travail en groupe": 4,
@@ -188,8 +181,8 @@ let tableau = [
             "Motivation": 5,
             "Productivité": 4,
         },
-        "projetPro": "",
-        "qualitesPrincipale": "",
+        "projetPro": "Developpeuse web dans une université",
+        "qualitesPrincipale": "Calme",
     },
     {
         "nom": "LAPOSTOLLE",
@@ -228,14 +221,14 @@ let tableau = [
     {
         "nom": "IMOULA",
         "prenom": "Ilias",
-        "surnom": "",
+        "surnom": "Ili",
         "phraseDePresentationDevise": "Go hard or go home",
         "qualites": {
             "Autonome": 4,
-            "Curieuse": 5,
-            "Créativite": 4,
-            "Sportive": 4,
-            "Organisée": 5,
+            "Curieux": 5,
+            "Créatif": 4,
+            "Sportif": 4,
+            "Organisé": 5,
         },
         "projetPro": "Trouvez un entreprise qui me\n" +
             "permet de voyager",
