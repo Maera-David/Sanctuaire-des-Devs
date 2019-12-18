@@ -46,13 +46,10 @@ let tableau = [
             "Communication": 3,
             "Confiance": 4,
         },
-        "projetPro": "Passionnée par la culture\n" +
-            "Japonaise, je suis également une grande amatrice de lecture en tout genre. J’aime\n" +
-            "beaucoup jouer aux jeux vidéos et dessiner.\n" +
-            "Niveau pro, je souhaiterai développer mes compétences afin de pouvoir travailler dans une\n" +
-            "entreprise ou une agence en tant que développeur web, et gagner en expérience pour\n" +
-            "grimper les échelons.",
-        "qualitesPrincipale": "Dessin à la tablette graphique",
+        "projetPro": "Passionnée par la culture Japonaise, lecture,jeux vidéos et dessin.\n" +
+            "travailler dans une entreprise ou une agence en tant que développeur web",
+            "gagner en expérience pour grimper les échelons.",
+        "qualitesPrincipale": "Digital art",
     },
     {
         "nom": "HENNES",
@@ -66,8 +63,7 @@ let tableau = [
             "Esprit d'entreprendre": 4,
             "Curiosité": 5,
         },
-        "projetPro": "Je continue à développer mes compétences de community manager en plus de celles de\n" +
-            "dév. web afin de pouvoir travailler dans une agence web en tant que développeur\n" +
+        "projetPro": "Travailler dans une agence web en tant que développeur\n" +
             "web/community manager.",
         "qualitesPrincipale": "Réseaux sociaux & Arts martiaux",
     },
