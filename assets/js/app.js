@@ -2,58 +2,58 @@
 
 const
 // Noms des images
-    arrayImages =
-        [
-            "temple-front.jpg",
-            "temple-mountain-sea.jpg",
-            "temple-mountain-waterfall.jpg",
-            "waterfall-sunset-landscape.jpg"
-        ],
+arrayImages =
+[
+"temple-front.jpg",
+"temple-mountain-sea.jpg",
+"temple-mountain-waterfall.jpg",
+"waterfall-sunset-landscape.jpg"
+],
 // Chemin où sont les images
-    path = "./assets/img/",
+path = "./assets/img/",
 // Temps entre chaque images
-    secs = 4;
+secs = 4;
 
 /** Mets les images en mémoire pour ne pas avoir de flash blanc */
 arrayImages.forEach(function (img) {
-    new Image().src = path + img;
+new Image().src = path + img;
 });
 
 /** Lance le fading du background et change les images
- * /!\ Boucle infiniment, ne resort pas de cette fonctions
- */
+* /!\ Boucle infiniment, ne resort pas de cette fonctions
+*/
 (function backgroundSequence() {
 
-    let k = 0;
-    window.clearTimeout();
+let k = 0;
+window.clearTimeout();
 
-    for (let i = 0; i < arrayImages.length; i++) {
+for (let i = 0; i < arrayImages.length; i++) {
 
-        setTimeout(function () {
-            document.documentElement.style.background = "url(" + path + arrayImages[k] + ") no-repeat center center fixed";
-            document.documentElement.style.backgroundSize = "cover";
+setTimeout(function () {
+document.documentElement.style.background = "url(" + path + arrayImages[k] + ") no-repeat center center fixed";
+document.documentElement.style.backgroundSize = "cover";
 
-            // Mettre le reste des fonctions a appeller ici
-            console.log("hello image : " + arrayImages[k]);
+// Mettre le reste des fonctions a appeller ici
+console.log("hello image : " + arrayImages[k]);
 
 
-            if ((k + 1) === arrayImages.length) {
-                setTimeout(function () {
-                    backgroundSequence()
-                }, (secs * 1000))
+if ((k + 1) === arrayImages.length) {
+setTimeout(function () {
+backgroundSequence()
+}, (secs * 1000))
 
-            } else {
-                k++;
-            }
-        }, (secs * 1000) * i)
-    }
+} else {
+k++;
+}
+}, (secs * 1000) * i)
+}
 })();
 
 // LE RESTE FOR THE MOMENT ^_^
 
 //DEVISE
 const resolver = {
-    resolve: function resolve(options, callback) {
+resolve: function resolve(options, callback) {
 // The string to resolve
         const resolveString = options.resolveString || options.element.getAttribute('data-target-resolver');
         const combinedOptions = Object.assign({}, options, {resolveString: resolveString});
@@ -116,29 +116,29 @@ const resolver = {
 }
 
 const strings = [
-    'Ne fais pas aux autres ce que tu n\'aimerai pas que l\'on te fasse',
+'Ne fais pas aux autres ce que tu n\'aimerai pas que l\'on te fasse',
 ];
 
 let counter = 0;
 
 const options = {
 // Initial position
-    offset: 0,
+offset: 0,
 // Timeout between each random character
-    timeout: 10,
+timeout: 10,
 // Number of random characters to show
-    iterations: 10,
+iterations: 10,
 // Random characters to pick from
-    characters: ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'x', 'y', 'x', '#', '%', '&', '-', '+', '_', '?', '/', '\\', '='],
+characters: ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'x', 'y', 'x', '#', '%', '&', '-', '+', '_', '?', '/', '\\', '='],
 // String to resolve
-    resolveString: strings[counter],
+resolveString: strings[counter],
 // The element
-    element: document.querySelector('[data-target-resolver]')
+element: document.querySelector('[data-target-resolver]')
 }
 
 // Callback function when resolve completes
 function callback() {
-    setTimeout(() => {
+setTimeout(() => {
         counter++;
 
         if (counter >= strings.length) {
@@ -147,7 +147,7 @@ function callback() {
 
         let nextOptions = Object.assign({}, options, {resolveString: strings[counter]});
         resolver.resolve(nextOptions, callback);
-    }, 1500);
+}, 1500);
 }
 
 resolver.resolve(options, callback);
