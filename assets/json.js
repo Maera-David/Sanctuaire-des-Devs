@@ -46,13 +46,10 @@ let tableau = [
             "Communication": 3,
             "Confiance": 4,
         },
-        "projetPro": "Passionnée par la culture\n" +
-            "Japonaise, je suis également une grande amatrice de lecture en tout genre. J’aime\n" +
-            "beaucoup jouer aux jeux vidéos et dessiner.\n" +
-            "Niveau pro, je souhaiterai développer mes compétences afin de pouvoir travailler dans une\n" +
-            "entreprise ou une agence en tant que développeur web, et gagner en expérience pour\n" +
-            "grimper les échelons.",
-        "qualitesPrincipale": "Dessin à la tablette graphique",
+        "projetPro": "Passionnée par la culture Japonaise, lecture,jeux vidéos et dessin.\n" +
+            "travailler dans une entreprise ou une agence en tant que développeur web" +
+            "gagner en expérience pour grimper les échelons.",
+        "qualitesPrincipale": "Digital art",
     },
     {
         "nom": "HENNES",
@@ -66,8 +63,7 @@ let tableau = [
             "Esprit d'entreprendre": 4,
             "Curiosité": 5,
         },
-        "projetPro": "Je continue à développer mes compétences de community manager en plus de celles de\n" +
-            "dév. web afin de pouvoir travailler dans une agence web en tant que développeur\n" +
+        "projetPro": "Travailler dans une agence web en tant que développeur\n" +
             "web/community manager.",
         "qualitesPrincipale": "Réseaux sociaux & Arts martiaux",
     },
@@ -92,9 +88,8 @@ let tableau = [
     {
         "nom": "MARIN",
         "prenom": "Ludovic",
-        "surnom": "",
-        "phraseDePresentationDevise": "OVH - Serveur Dédié - Ubuntu 18.04 - PHP 7.2\n" +
-            "phpMyAdmin - jQuery - Js Vanilla - Css3 - Bootstrap - DNS - HTTPS - référencement ..",
+        "surnom": "Ludo",
+        "phraseDePresentationDevise": "Seul les poissons mort suivent le courant" , 
         "qualites": {
             "Curieux": 4,
             "Astucieux": 4,
@@ -102,17 +97,13 @@ let tableau = [
             "Ponctuel": 5,
             "Créatif": 4,
         },
-        "projetPro": "Ludovic, 40ans. J’aime la musique et tout ce qui sonne pop, soul et funky.\n" +
-            "Je suis également passionné du web auquel je contribue depuis 2005 à travers 2\n" +
-            "plateformes que j’ai réalisées et que j’ai mises en ligne. L’une étant un média musical que\n" +
-            "j’ai depuis arrêté et l’autre une niche centrée autour du partage et de la vente\n" +
-            "d’instrumentales.",
+        "projetPro": "Développeur dans une agence de création ",
         "qualitesPrincipale": "Débrouillard",
     },
     {
         "nom": "MONTMIRAIL",
         "prenom": "Anthony",
-        "surnom": "",
+        "surnom": "Antho",
         "phraseDePresentationDevise": "Elle gère la fougère",
         "qualites": {
             "Présence": 5,
@@ -154,7 +145,7 @@ let tableau = [
             "Écoute": 5,
         },
         "projetPro": "Niveau pro: devenir développeur Web.\n" +
-            "J'aime voyager, prendre de jolies photos, la nature et être en harmonie avec soi-même et\n" +
+            "J'aime voyager, la photographie, la nature et être en harmonie avec soi-même et\n" +
             "avec les autres.",
         "qualitesPrincipale": "Les langues",
     },
@@ -177,10 +168,8 @@ let tableau = [
     {
         "nom": "BENCHIKH",
         "prenom": "Messaouda",
-        "surnom": "",
-        "phraseDePresentationDevise": "Nous avons tous des idées positives, c’est avec de l’énergie et de la créativité que nous\n" +
-            "pouvons les réaliser. Nous sommes présents pour trouver des solutions et pour vous faciliter\n" +
-            "la vie.",
+        "surnom": "Messa",
+        "phraseDePresentationDevise": "Quandon est positif  , on est plus créatif",
         "qualites": {
             "Innovation": 5,
             "Travail en groupe": 4,
@@ -188,8 +177,8 @@ let tableau = [
             "Motivation": 5,
             "Productivité": 4,
         },
-        "projetPro": "",
-        "qualitesPrincipale": "",
+        "projetPro": "Developpeuse web dans une université",
+        "qualitesPrincipale": "Calme",
     },
     {
         "nom": "LAPOSTOLLE",
@@ -203,8 +192,7 @@ let tableau = [
             "Créativité": 4,
             "Patience": 4,
         },
-        "projetPro": "“L’ignorant affirme, le savant doute, le sage réfléchit.” OU\n" +
-            "Ma passion c’est Batman, je dessine Batman, je parle Batman, I AM BATMAN",
+        "projetPro": "Ma passion c’est Batman, je dessine Batman, je parle Batman, I AM BATMAN",
         "qualitesPrincipale": "Garder son calme sur twitter",
     },
     {
@@ -220,22 +208,21 @@ let tableau = [
             "Créativité": 4,
             "Empathie": 4,
         },
-        "projetPro": "Je souhaite intégrer l’école de poudlard, et devenir la plus grande sorcière de tous les temps.\n" +
-            "J’ai essayé à plusieurs reprises de les contacter, malheureusement mon hibou est un peu\n" +
-            "tête en l’air alors il se trompe tout le temps de route...",
+        "projetPro": "Souhaite intégrer Poudlard, et devenir une grande sorcière.\n" +
+            "Malheureusement mon hibou est un peu en retard\n",
         "qualitesPrincipale": "Maitrise de Piertotum locomotor",
     },
     {
         "nom": "IMOULA",
         "prenom": "Ilias",
-        "surnom": "",
+        "surnom": "Ili",
         "phraseDePresentationDevise": "Go hard or go home",
         "qualites": {
             "Autonome": 4,
-            "Curieuse": 5,
-            "Créativite": 4,
-            "Sportive": 4,
-            "Organisée": 5,
+            "Curieux": 5,
+            "Créatif": 4,
+            "Sportif": 4,
+            "Organisé": 5,
         },
         "projetPro": "Trouvez un entreprise qui me\n" +
             "permet de voyager",
@@ -269,8 +256,8 @@ let tableau = [
             "Sérieux": 4,
             "Raisonnable": 4,
         },
-        "projetPro": "Calme et sérieux. Je suis capable de travailler seul et en équipe. Je souhaiterais acquérir les\n" +
-            "compétences nécessaires pour devenir développeur d’applications web.",
+        "projetPro":   
+        "devenir développeur d’applications web.",
         "qualitesPrincipale": "Je travail avec l’objectif de toujours satisfaire ma clientèle.",
     },
 ];
