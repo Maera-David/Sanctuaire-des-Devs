@@ -47,7 +47,7 @@ let tableau = [
             "Confiance": 4,
         },
         "projetPro": "Passionnée par la culture Japonaise, lecture,jeux vidéos et dessin.\n" +
-            "travailler dans une entreprise ou une agence en tant que développeur web",
+            "travailler dans une entreprise ou une agence en tant que développeur web" +
             "gagner en expérience pour grimper les échelons.",
         "qualitesPrincipale": "Digital art",
     },
