@@ -1,199 +1,138 @@
 /* IMPORTATION FONTS */
-@import url('https://fonts.googleapis.com/css?family=Orbitron|Shojumaru&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Shojumaru|Comfortaa&display=swap');
 
 /* Reset CSS*/
 * {
     box-sizing: border-box;
 }
 
-body, html {
+body {
     margin: 0;
     background: unset;
 }
 
 /* Base elements */
 body {
+    color: #ffffff;
     height: 100vh;
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Comfortaa', sans-serif;
 }
 
-.skills-float, .principale-flat, .description {
-    width: 33vh;
+.background-theme {
+     border: 4px double rgba(255, 255, 255, 0.7);
+     background-color: rgba(0, 0, 0, 0.5);
+ }
 
+.skills-float, .principale-flat, .description {
+    width: 40vh;
 }
 
 /* Background */
-html {
+
+body {
     background-size: cover;
-    background: url("../img/temple-front.jpg") no-repeat center center fixed;
+    background: url("../img/temple-front.jpg") no-repeat fixed;
     background-blend-mode: darken;
     transition: 3s;
 }
 
-.background-theme {
-    color: #ffffff;
-    border: 4px double rgba(255, 255, 255, 0.7);
-    background-color: rgba(0, 0, 0, 0.5);
-}
-
-
+/* Alignements */
 .div-centrale {
-    margin-top: 4em;
+    position: fixed;
+    width: 100%;
+    top: 8%;
 }
 
-/* SOFT SKILLS */
-/*.list-skills {*/
-/*    margin-bottom: 0;*/
-/*}*/
+.container-central {
+    width: 45em;
+    height: 70em;
+}
+
+.contenaire-cotes {
+    height: 30em;
+}
 
 /* SOFT SKILLS */
 
 #skills {
-    font-family: Comfortaa, sans-serif;
-    font-size: 20px;
+    /*font-size: 20px;*/
+    font-size: 1.25em;
     text-shadow: 1px 2px 3px rgb(163, 226, 46);
+    width: 27em
 }
 
 #skills h1 {
-    padding: 20px;
-
-}
-
-#skills .skills-container {
-    width: 25em
+    padding: 0.5em;
+    font-weight: bolder;
 }
 
 #ul-skills {
     list-style: none;
+    padding: 0 0.5em;
 }
 
 .li-skills {
     display: flex;
-    padding: 26px;
+    font-size: 1.05em;
+    padding: 1.5em 0.5em;
 }
 
-#skills .barrePourcentage {
-    margin-left: 130px;
-    position: absolute;
-    height: 22px;
-    width: 200px;
+#skills progress {
+    background-color: #FA760E;
     border-radius: 13px;
-    background: rgb(214, 214, 214);
+    border: 1px solid #999;
+
+}
+
+#skills progress::-webkit-progress-bar {
+    border-radius: 13px;
+    background: #d6d6d6;
     border: 1px solid #999;
 }
 
-#skills .barrePourcentageProgress {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 22px;
+#skills progress::-webkit-progress-value {
     border-radius: 13px;
     background: #FA760E;
 }
 
-#skills .pourcentage-0sur5 {
-    width: 0;
-    /* 60px = 1/5 */
-}
-
-#skills .pourcentage-1sur5 {
-    width: 40px;
-    /* 60px = 1/5 */
-}
-
-#skills .pourcentage-2sur5 {
-    width: 80px;
-    /* 60px = 1/5 */
-}
-
-#skills .pourcentage-3sur5 {
-    width: 120px;
-    /* 60px = 1/5 */
-}
-
-#skills .pourcentage-4sur5 {
-    width: 180px;
-    /* 60px = 1/5 */
-}
-
-#skills .pourcentage-5sur5 {
-    width: 200px;
-    /* 60px = 1/5 */
-}
-
-
 /* DEVISE */
 
-.container-devise h1{
-    color: #ffffff;
+#principale {
+    text-shadow: 5px 2px 3px rgb(43, 33, 255);
+}
+
+#principale .container-devise h1 {
     font-size: 2.8em;
     text-transform: uppercase;
     text-shadow: 1px 2px 3px rgb(163, 226, 46);
-    min-height: 1.2em;
 }
 
 /* PHOTO */
-img {
+#principale img {
     height: 600px;
-    margin: auto;
 }
 
-.card {
-    border: none;
-    transform: scale(1.2);
+#principale .card {
     background: transparent;
+    border: 0;
 }
 
-.container-progression-bar {
-    position: relative;
-    width: 900px;
-    display: flex;
-    justify-content: space-around;
-}
-
-.container-progression-bar .card {
-    position: relative;
-    width: 250px;
-    background: linear-gradient(0deg, #1b1b1b, #222, #1b1b1b);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 300px;
-    border-radius: 4px;
-    text-align: center;
-    overflow: hidden;
-    transition: 0.5s;
-}
-
-.container-progression-bar .card:hover {
+#principale .container-progression-bar .card:hover {
     transform: translateY(-10px);
     box-shadow: 0 15px 35px rgba(0, 0, 0, .5);
 }
 
-.container-progression-bar .card:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: -50%;
-    width: 100%;
-    height: 100%;
-    background: rgba(255, 255, 255, .03);
-    pointer-events: none;
-}
 
-.percent {
+#principale .percent {
     position: relative;
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    box-shadow: inset 0 0 50px #000;
-    background: #000;
-    z-index: 1000;
+    background: #000000;
     margin: auto;
 }
 
-.percent .number {
+#principale .percent .number {
     position: absolute;
     top: 0;
     left: 0;
@@ -202,70 +141,48 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 50%;
 }
 
-.percent .number h4 {
+#principale .percent .number h4 {
     color: #777;
     font-weight: 700;
     font-size: 40px;
     transition: 0.5s;
 }
 
-.card:hover .percent .number h2 {
-    color: #fff;
+#principale .card:hover .percent .number h2 {
     font-size: 40px;
 }
 
 #principale .number h2 {
     color: #9b9b9b;
+    text-shadow: 0 0 0 #000000;
 }
 
-.percent .number h2 span {
+#principale .percent .number h2 span {
     font-size: 24px;
     color: #777;
     transition: 0.5s;
 }
 
-.card:hover .percent .number h2 span {
-    color: #fff;
+#principale .card:hover .percent .number h2 span {
     font-size: 40px;
 }
 
-.jaugexp {
+#principale .jaugexp {
     text-align: center;
     font-family: 'Shojumaru', serif;
     margin: 0 auto 1em;
     font-size: 3.6rem;
-    color: #ffffff;
-    text-shadow: 5px 2px 3px rgb(43, 33, 255);
 }
 
-.text-bar {
+#principale .text-bar {
     text-align: center;
     margin-top: 10px;
     font-size: 2rem;
-    color: white;
-    text-shadow: 5px 2px 3px rgb(43, 33, 255);
 }
 
-.text {
-    position: relative;
-    color: #777;
-    margin-top: 20px;
-    font-weight: 700;
-    font-size: 18px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    transition: 0.5s;
-}
-
-.card:hover .text {
-    color: #fff;
-}
-
-
-svg circle {
+#principale svg circle {
     width: 100%;
     height: 100%;
     fill: none;
@@ -275,31 +192,36 @@ svg circle {
     transform: translate(5px, 5px);
 }
 
-svg circle:nth-child(2) {
+#principale svg circle:nth-child(2) {
     stroke-dasharray: 390;
 }
 
-.card:nth-child(1) svg circle:nth-child(2) {
+#principale .card:nth-child(1) svg circle:nth-child(2) {
     stroke: #00ff43;
 }
 
-.card:nth-child(1) svg circle:nth-child(2) {
+#principale .card:nth-child(1) svg circle:nth-child(2) {
     stroke: #00a1ff;
 }
 
-.card:nth-child(1) svg circle:nth-child(2) {
-    stroke: orange;
+#principale .card:nth-child(1) svg circle:nth-child(2) {
+    stroke: #ffa500;
     stroke-dashoffset: calc(500 - (440 * 120) / 100);
 }
 
 /* DESCRIPTION */
 
 #description {
-    font-family: Comfortaa, sans-serif;
     font-size: 20px;
     text-shadow: 1px 2px 3px rgb(163, 226, 46);
 }
 
+#description h1 {
+    padding: 0.5em;
+    font-weight: bolder;
+}
+
 #description ul {
     list-style: none;
+    padding: 0 0.5em;
 }
