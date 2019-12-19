@@ -4,7 +4,7 @@ let tableau = [
         "nom": "MONTMIRAIL",
         "prenom": "Anthony",
         "surnom": "Antho",
-        "phraseDePresentationDevise": "Elle gère la fougère",
+        "devise": "Elle gère la fougère",
         "qualites": {
             "Présence": 5,
             "Vision": 4,
@@ -20,7 +20,7 @@ let tableau = [
         "nom": "HATSCH",
         "prenom": "Béatrice",
         "surnom": "Béa",
-        "phraseDePresentationDevise": "Ne fais pas aux autres ce que tu n'aimerais pas qu’on te fasse",
+        "devise": "Ne fais pas aux autres ce que tu n'aimerais pas qu’on te fasse",
         "qualites": {
             "Sens du collectif": 5,
             "Présence": 4,
@@ -28,15 +28,15 @@ let tableau = [
             "Créativité": 3,
             "Confiance": 3
         },
-        "passion": "",
-        "projetPro": "L’une de mes passions l’univers de la création. J’aimerai devenir développeur d’application.",
+        "passion": "L’une de mes passions l’univers de la création.",
+        "projetPro": "Devenir développeur d’application.",
         "qualitesPrincipale": "Enthousiaste"
     },
     {
         "nom": "SCHMITT",
         "prenom": "ETIENNE",
         "surnom": "Syrgo",
-        "phraseDePresentationDevise": "Toujours conserver sa meilleure carte à portée de main",
+        "devise": "Toujours conserver sa meilleure carte à portée de main",
         "qualites": {
             "Esprit critique": 5,
             "Coopération": 4,
@@ -44,7 +44,7 @@ let tableau = [
             "Vision": 4,
             "Présence": 4
         },
-        "passion": "",
+        "passion": "Jeux de cartes, de rôle et vidéos",
         "projetPro": "DevOps spécialisé en backend",
         "qualitesPrincipale": "Transmissions du savoir"
     },
@@ -52,7 +52,7 @@ let tableau = [
         "nom": "IMOULA",
         "prenom": "Ilias",
         "surnom": "Ili",
-        "phraseDePresentationDevise": "Go hard or go home",
+        "devise": "Go hard or go home",
         "qualites": {
             "Autonome": 4,
             "Curieux": 5,
@@ -68,7 +68,7 @@ let tableau = [
         "nom": "PINTCHUK",
         "prenom": "Irina",
         "surnom": "",
-        "phraseDePresentationDevise": "Si ton esprit est motivé, ton corps suivra.",
+        "devise": "Si ton esprit est motivé, ton corps suivra.",
         "qualites": {
             "Empathie": 5,
             "Esprit d’équipe ": 5,
@@ -76,16 +76,15 @@ let tableau = [
             "Curiosité": 4,
             "Écoute": 5
         },
-        "passion": "",
-        //TODO tester sinon changer
-        "projetPro": "Devenir développeur Web. J'aime voyager, la photographie, la nature et être en harmonie avec soi-même et avec les autres.",
+        "passion": "J'aime voyager, la photographie, la nature et être en harmonie avec soi-même et avec les autres.",
+        "projetPro": "Devenir développeur Web.",
         "qualitesPrincipale": "Les langues"
     },
     {
         "nom": "HENNES",
         "prenom": "Isabelle",
         "surnom": "Isa ou Zabou",
-        "phraseDePresentationDevise": "#warrior : Toujours se relever, toujours recommencer, Interdit d’abandonner!",
+        "devise": "#warrior : Toujours se relever, toujours recommencer, Interdit d’abandonner!",
         "qualites": {
             "Empathie": 5,
             "Organisation": 4,
@@ -101,7 +100,7 @@ let tableau = [
         "nom": "RINNER",
         "prenom": "Jérome",
         "surnom": "Monsieur Fruit",
-        "phraseDePresentationDevise": "La créativité est contagieuse, faites la tourner !",
+        "devise": "La créativité est contagieuse, faites la tourner !",
         "qualites": {
             "Adaptabilité": 5,
             "Esprit d'équipe": 3,
@@ -109,15 +108,15 @@ let tableau = [
             "Passion": 4,
             "Écoute": 5
         },
-        "passion": "",
-        "projetPro": "J'aime la simplicité, apprécier l'instant présent et m'émerveiller de la créativité de la vie, la nature.",
+        "passion": "J'aime la simplicité, apprécier l'instant présent et m'émerveiller de la créativité de la vie, la nature.",
+        "projetPro": "",
         "qualitesPrincipale": "Lâcher prise :)"
     },
     {
         "nom": "SOR",
         "prenom": "Johan",
         "surnom": "Jojo",
-        "phraseDePresentationDevise": "Tout métier qui ne fait pas oublier le travail est un esclavage.",
+        "devise": "Tout métier qui ne fait pas oublier le travail est un esclavage.",
         "qualites": {
             "Motivation": 5,
             "Créativité": 3,
@@ -125,17 +124,18 @@ let tableau = [
             "Détermination": 5,
             "Esprit d’équipe": 4
         },
-        "passion": "",
-        "projetPro": "while (travaille === (plaisir && passion))" +
-            "   {console.log(“just do it”)" +
+        //TODO allignements
+        "passion": "while (travaille === (plaisir && passion))\n" +
+            "   {console.log(“just do it”)\n" +
             "};",
+        "projetPro": "",
         "qualitesPrincipale": "Tenacité"
     },
     {
         "nom": "GALLI",
         "prenom": "Johanna",
         "surnom": "",
-        "phraseDePresentationDevise": "“Ce ne sont pas nos aptitudes qui montrent ce que nous sommes, ce sont nos choix” A. Dumbledore",
+        "devise": "“Ce ne sont pas nos aptitudes qui montrent ce que nous sommes, ce sont nos choix” A. Dumbledore",
         "qualites": {
             "Débrouillarde": 3,
             "Gestion du stress": 5,
@@ -151,26 +151,24 @@ let tableau = [
         "nom": "MULOT",
         "prenom": "Julie",
         "surnom": "Olympe de Gouges",
-        // TODO tester
-        "phraseDePresentationDevise": "Nous vivons tous dans le ventre d’un chien géant, tout le monde le sait mais personne ne dit rien du tout",
+        "devise": "Nous vivons tous dans le ventre d’un chien géant, tout le monde le sait mais personne ne dit rien du tout",
         "qualites": {
-            //TODO Listes de skill
-            "Aime observer, écouter et trouver des solutions": 0,
+            "Observation": 0,
             "skill2": 0,
             "skill3": 0,
             "skill4": 0,
             "skill5": 0
         },
-        "passion": "",
-        // TODO projetpro plus complet
-        "projetPro": "Fan de Tagada Jones et Ultra Vomit. 800 BD à la maison. Mes conseils cadeaux de Noël : “Tant pis pour l’amour” de Sophie Lambda, “Voltaire, le culte de l’ironie” de Philippe Richelle et le tome 1 de “Un putain de salopard” Loisel, Pont et Isabel",
+        "passion": "Fan de Tagada Jones et Ultra Vomit. 800 BD à la maison. Mes conseils cadeaux de Noël : “Tant pis pour l’amour” de Sophie Lambda, “Voltaire, le culte de l’ironie” de Philippe Richelle et le tome 1 de “Un putain de salopard” Loisel, Pont et Isabel",
+        //TODO Projetpro
+        "projetPro": "",
         "qualitesPrincipale": "Cuisine"
     },
     {
         "nom": "MARIN",
         "prenom": "Ludovic",
         "surnom": "Ludo",
-        "phraseDePresentationDevise": "Seuls les poissons morts suivent le courant",
+        "devise": "Seuls les poissons morts suivent le courant",
         "qualites": {
             "Curieux": 4,
             "Astucieux": 4,
@@ -186,7 +184,7 @@ let tableau = [
         "nom": "DAVID",
         "prenom": "Maëra",
         "surnom": "Yaya ou Raven",
-        "phraseDePresentationDevise": "Parmi les faibles, le plus fort est celui qui n’oublie pas sa faiblesse.",
+        "devise": "Parmi les faibles, le plus fort est celui qui n’oublie pas sa faiblesse.",
         "qualites": {
             "Empathie": 5,
             "Créativité": 3,
@@ -194,16 +192,16 @@ let tableau = [
             "Communication": 3,
             "Confiance": 4,
         },
-        "passion": "",
+        "passion": "Passionnée par la culture Japonaise, lecture, jeux vidéos et dessin. travailler dans une entreprise ou une agence en tant que développeur web gagner en expérience pour grimper les échelons.",
         //TODO projet pro
-        "projetPro": "Passionnée par la culture Japonaise, lecture, jeux vidéos et dessin. travailler dans une entreprise ou une agence en tant que développeur web gagner en expérience pour grimper les échelons.",
+        "projetPro": "",
         "qualitesPrincipale": "Digital art"
     },
     {
         "nom": "BENCHIKH",
         "prenom": "Messaouda",
         "surnom": "Messa",
-        "phraseDePresentationDevise": "Quand on est positif  , on est plus créatif",
+        "devise": "Quand on est positif  , on est plus créatif",
         "qualites": {
             "Innovation": 5,
             "Travail en groupe": 4,
@@ -219,7 +217,7 @@ let tableau = [
         "nom": "MIHALJEVIC",
         "prenom": "Nebojsa",
         "surnom": "Nebo",
-        "phraseDePresentationDevise": "Work hard and have fun!!",
+        "devise": "Work hard and have fun!!",
         "qualites": {
             "Travailleur": 5,
             "Pointilleux": 4,
@@ -228,14 +226,14 @@ let tableau = [
             "Raisonnable": 4
         },
         "passion": "",
-        "projetPro": "devenir développeur d’applications web.",
+        "projetPro": "Devenir développeur d’applications web.",
         "qualitesPrincipale": "Je travail avec l’objectif de toujours satisfaire ma clientèle.",
     },
     {
         "nom": "LOEGEL",
         "prenom": "Thomas",
         "surnom": "Jamy",
-        "phraseDePresentationDevise": "Les rêves donnent l’envie d’être à demain",
+        "devise": "Les rêves donnent l’envie d’être à demain",
         "qualites": {
             "Flexibilité": 4,
             "Sens du service": 3,
@@ -251,7 +249,7 @@ let tableau = [
         "nom": "LAPOSTOLLE",
         "prenom": "Victor",
         "surnom": "Raptaman",
-        "phraseDePresentationDevise": "I'm Batman but less rich.",
+        "devise": "I'm Batman but less rich.",
         "qualites": {
             "Curiosité": 4,
             "Adaptabilité": 3,
@@ -259,8 +257,8 @@ let tableau = [
             "Créativité": 4,
             "Patience": 4
         },
-        "passion": "",
-        "projetPro": "Ma passion c’est Batman, je dessine Batman, je parle Batman, I AM BATMAN",
+        "passion": "Ma passion c’est Batman, je dessine Batman, je parle Batman, I AM BATMAN",
+        "projetPro": "",
         "qualitesPrincipale": "Garder son calme sur twitter"
     },
 ];
