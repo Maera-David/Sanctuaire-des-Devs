@@ -12,7 +12,7 @@ let tableau = [
             "Confiance": 5,
             "Gestion du temps": 5
         },
-        "passion": "",
+        "passion": "Réparer des consoles de jeux et autres hardware",
         "projetPro": "Dev programmeur Js",
         "qualitesPrincipale": "Technicien Rebilleur"
     },
@@ -28,8 +28,8 @@ let tableau = [
             "Créativité": 3,
             "Confiance": 3
         },
-        "passion": "L’une de mes passions l’univers de la création.",
-        "projetPro": "Devenir développeur d’application.",
+        "passion": "L’une de mes passions l’univers de la création",
+        "projetPro": "Devenir développeur d’applications web",
         "qualitesPrincipale": "Enthousiaste"
     },
     {
@@ -60,7 +60,7 @@ let tableau = [
             "Sportif": 4,
             "Organisé": 5
         },
-        "passion": "",
+        "passion": "Sports et jeux vidéos",
         "projetPro": "Trouvez un entreprise qui me permet de voyager",
         "qualitesPrincipale": "Sens de l’orientation"
     },
@@ -68,7 +68,7 @@ let tableau = [
         "nom": "PINTCHUK",
         "prenom": "Irina",
         "surnom": "",
-        "devise": "Si ton esprit est motivé, ton corps suivra.",
+        "devise": "Si ton esprit est motivé, ton corps suivra",
         "qualites": {
             "Empathie": 5,
             "Esprit d’équipe ": 5,
@@ -76,8 +76,8 @@ let tableau = [
             "Curiosité": 4,
             "Écoute": 5
         },
-        "passion": "J'aime voyager, la photographie, la nature et être en harmonie avec soi-même et avec les autres.",
-        "projetPro": "Devenir développeur Web.",
+        "passion": "J'aime voyager, la photographie, la nature et être en harmonie avec soi-même et les autres",
+        "projetPro": "Devenir développeur Web",
         "qualitesPrincipale": "Les langues"
     },
     {
@@ -92,8 +92,8 @@ let tableau = [
             "Esprit d'entreprendre": 4,
             "Curiosité": 5
         },
-        "passion": "",
-        "projetPro": "Travailler dans une agence web en tant que développeur web/community manager.",
+        "passion": "Judo, mode, makeup et réseaux sociaux",
+        "projetPro": "Travailler dans une agence web en tant que développeur web/community manager",
         "qualitesPrincipale": "Réseaux sociaux & Arts martiaux"
     },
     {
@@ -108,15 +108,15 @@ let tableau = [
             "Passion": 4,
             "Écoute": 5
         },
-        "passion": "J'aime la simplicité, apprécier l'instant présent et m'émerveiller de la créativité de la vie, la nature.",
-        "projetPro": "",
+        "passion": "J'aime la simplicité, apprécier l'instant présent, la nature et m'émerveiller de la créativité de la vie",
+        "projetPro": "Développeur Web en agence",
         "qualitesPrincipale": "Lâcher prise :)"
     },
     {
         "nom": "SOR",
-        "prenom": "Johan",
+        "prenom": "Joan",
         "surnom": "Jojo",
-        "devise": "Tout métier qui ne fait pas oublier le travail est un esclavage.",
+        "devise": "Tout métier qui ne fait pas oublier le travail est un esclavage",
         "qualites": {
             "Motivation": 5,
             "Créativité": 3,
@@ -124,18 +124,17 @@ let tableau = [
             "Détermination": 5,
             "Esprit d’équipe": 4
         },
-        //TODO allignements
         "passion": "while (travaille === (plaisir && passion))\n" +
-            "   {console.log(“just do it”)\n" +
+            "   {consolelog(“just do it”)\n" +
             "};",
-        "projetPro": "",
+        "projetPro": "Dev web/web mobile en entreprise",
         "qualitesPrincipale": "Tenacité"
     },
     {
         "nom": "GALLI",
         "prenom": "Johanna",
         "surnom": "",
-        "devise": "“Ce ne sont pas nos aptitudes qui montrent ce que nous sommes, ce sont nos choix” A. Dumbledore",
+        "devise": "“Ce ne sont pas nos aptitudes qui montrent ce que nous sommes, ce sont nos choix” A Dumbledore",
         "qualites": {
             "Débrouillarde": 3,
             "Gestion du stress": 5,
@@ -143,8 +142,8 @@ let tableau = [
             "Créativité": 4,
             "Empathie": 4
         },
-        "passion": "",
-        "projetPro": "Intégrer Poudlard, et devenir une grande sorcière. Malheureusement mon hibou est un peu en retard",
+        "passion": "Musique, carnaval, montage vidéo & photos",
+        "projetPro": "Intégrer Poudlard, et devenir une grande sorcière Malheureusement mon hibou est un peu en retard",
         "qualitesPrincipale": "Maitrise de Piertotum locomotor"
     },
     {
@@ -153,15 +152,14 @@ let tableau = [
         "surnom": "Olympe de Gouges",
         "devise": "Nous vivons tous dans le ventre d’un chien géant, tout le monde le sait mais personne ne dit rien du tout",
         "qualites": {
-            "Observation": 0,
-            "skill2": 0,
-            "skill3": 0,
-            "skill4": 0,
-            "skill5": 0
+            "Observation": 5,
+            "Gourmande": 5,
+            "Joyeuse": 5,
+            "Organisation": 5,
+            "Curiosité": 5
         },
-        "passion": "Fan de Tagada Jones et Ultra Vomit. 800 BD à la maison. Mes conseils cadeaux de Noël : “Tant pis pour l’amour” de Sophie Lambda, “Voltaire, le culte de l’ironie” de Philippe Richelle et le tome 1 de “Un putain de salopard” Loisel, Pont et Isabel",
-        //TODO Projetpro
-        "projetPro": "",
+        "passion": "Fan de Tagada Jones et Ultra Vomit 800 BD à la maison Mes conseils cadeaux de Noël : “Tant pis pour l’amour” de Sophie Lambda, “Voltaire, le culte de l’ironie” de Philippe Richelle et le tome 1 de “Un putain de salopard” Loisel, Pont et Isabel",
+        "projetPro": "Que la formation reusisse",
         "qualitesPrincipale": "Cuisine"
     },
     {
@@ -176,7 +174,7 @@ let tableau = [
             "Ponctuel": 5,
             "Créatif": 4
         },
-        "passion": "",
+        "passion": "Musique et informatique",
         "projetPro": "Développeur dans une agence de création ",
         "qualitesPrincipale": "Débrouillard"
     },
@@ -184,7 +182,7 @@ let tableau = [
         "nom": "DAVID",
         "prenom": "Maëra",
         "surnom": "Yaya ou Raven",
-        "devise": "Parmi les faibles, le plus fort est celui qui n’oublie pas sa faiblesse.",
+        "devise": "Parmi les faibles, le plus fort est celui qui n’oublie pas sa faiblesse",
         "qualites": {
             "Empathie": 5,
             "Créativité": 3,
@@ -192,16 +190,15 @@ let tableau = [
             "Communication": 3,
             "Confiance": 4,
         },
-        "passion": "Passionnée par la culture Japonaise, lecture, jeux vidéos et dessin. travailler dans une entreprise ou une agence en tant que développeur web gagner en expérience pour grimper les échelons.",
-        //TODO projet pro
-        "projetPro": "",
+        "passion": "Passionnée par la culture Japonaise, lecture, jeux vidéos et dessin",
+        "projetPro": "Travailler dans une entreprise ou une agence en tant que développeur web gagner en expérience pour grimper les échelons",
         "qualitesPrincipale": "Digital art"
     },
     {
         "nom": "BENCHIKH",
         "prenom": "Messaouda",
         "surnom": "Messa",
-        "devise": "Quand on est positif  , on est plus créatif",
+        "devise": "Quand on est positif, on est plus créatif",
         "qualites": {
             "Innovation": 5,
             "Travail en groupe": 4,
@@ -209,7 +206,7 @@ let tableau = [
             "Motivation": 5,
             "Productivité": 4
         },
-        "passion": "",
+        "passion": "Lecture, mathématique et énigme",
         "projetPro": "Développeuse web dans une université",
         "qualitesPrincipale": "Calme"
     },
@@ -225,9 +222,9 @@ let tableau = [
             "Sérieux": 4,
             "Raisonnable": 4
         },
-        "passion": "",
-        "projetPro": "Devenir développeur d’applications web.",
-        "qualitesPrincipale": "Je travail avec l’objectif de toujours satisfaire ma clientèle.",
+        "passion": "Langues, le monde de la nature, la famille",
+        "projetPro": "Devenir développeur d’applications web",
+        "qualitesPrincipale": "Je travail avec l’objectif de toujours satisfaire ma clientèle",
     },
     {
         "nom": "LOEGEL",
@@ -241,7 +238,7 @@ let tableau = [
             "Curiosité": 5,
             "Esprit d’entreprendre": 3
         },
-        "passion": "",
+        "passion": "Voyager en Faucon Millenium",
         "projetPro": "Passionné par les plantes dont je ne connais même pas les noms !",
         "qualitesPrincipale": "Maître Jedi en construction Lego"
     },
@@ -249,7 +246,7 @@ let tableau = [
         "nom": "LAPOSTOLLE",
         "prenom": "Victor",
         "surnom": "Raptaman",
-        "devise": "I'm Batman but less rich.",
+        "devise": "I'm Batman but less rich",
         "qualites": {
             "Curiosité": 4,
             "Adaptabilité": 3,
@@ -258,7 +255,7 @@ let tableau = [
             "Patience": 4
         },
         "passion": "Ma passion c’est Batman, je dessine Batman, je parle Batman, I AM BATMAN",
-        "projetPro": "",
+        "projetPro": "Devenir batman dans la vie",
         "qualitesPrincipale": "Garder son calme sur twitter"
     },
 ];
